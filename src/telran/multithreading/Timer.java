@@ -22,6 +22,7 @@ public class Timer extends Thread {
 				} catch (InterruptedException e) {
 					
 					e.printStackTrace();
+					break;
 				}
 			}
 		}

@@ -8,7 +8,7 @@ public class TimerControllerAppl {
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
 			Timer timer = new Timer(formatter,1000);
 			timer.start();
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 			timer.interrupt();
 			Thread.sleep(5000);
 			//DONE
